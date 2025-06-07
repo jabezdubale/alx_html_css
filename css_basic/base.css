@@ -4,8 +4,11 @@ body {
 }
 header {
     background: rgb(120, 162, 135);
-    padding: 2%;
     border: 1px solid;
+    height: 90px;
+}
+.logo {
+    font-size: 80px;
 }
 main {
     background-color: rgb(48, 45, 45);
