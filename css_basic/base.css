@@ -1,18 +1,22 @@
 body {
     background-color: antiquewhite;
+    margin: 0;
 }
 header {
     background: rgb(120, 162, 135);
-    padding: 3%;
+    padding: 2%;
     border: 1px solid;
 }
 main {
     background-color: rgb(48, 45, 45);
     color: antiquewhite;
-    padding: 2%;
 }
 
 main > article > a > img {
     background-color: #fff;
     margin-left: 40%;
+}
+
+aside {
+    background-color: rgb(77, 71, 71);
 }
