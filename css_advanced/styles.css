@@ -82,7 +82,7 @@ main{
 }
 
 .headerAndBanner {
-    height: 875px;
+    height: 870px;
 }
 .learnPros {
     position: relative;
@@ -123,4 +123,31 @@ main{
     width: 150px;
     text-align: center;
     font-style: italic;
+}
+
+.quoteParent {
+    background-color: #C271FF;
+    height: 390px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quoteImage {
+    height: 160px;
+    width: 160px;
+    margin-right: 50px;
+}
+
+.quote {
+    font-size: 22px;
+    width: 730px;
+    height: 158px;
+    font-style: italic;
+}
+.quote h3{
+    font-size: 22px;
+    margin-top: 22px;
+    font-style:normal;
 }
