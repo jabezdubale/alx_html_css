@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/4a2b055604.js"
       crossorigin="anonymous"
@@ -12,44 +18,46 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navAreas">
         <img src="./images/logo.png" alt="logo" />
 
-        <ul>
-          <li><a href="#">COURSE</a></li>
-          <li><a href="#">PRICING</a></li>
-          <li><a href="#">LOGIN</a></li>
+        <ul class="navLinksUl">
+          <li class="navLinksLi"><a href="#" class="navLinksA">COURSE</a></li>
+          <li class="navLinksLi"><a href="#" class="navLinksA">PRICING</a></li>
+          <li class="navLinksLi"><a href="#" class="navLinksA">LOGIN</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <h1>Get schooled</h1>
-          <span>SMILES</span>
-          <span>GRIN</span>
-          <span>LAUGH</span>
-          <button>REGISTER FOR FREE</button>
+      <section class="headerAndBanner">
+        <div class="firstHeader">
+          <h1 class="topTitle">Get schooled</h1>
+          <div class="serviceHeader">
+            <span>SMILES</span>
+            <span>GRIN</span>
+            <span>LAUGH</span>
+          </div>
+          <button class="registerFreeButtonInHeader">REGISTER FOR FREE</button>
         </div>
-        <div>
-          <h2>Learn from the pros</h2>
-          <div>
-            <div>
+        <div class="learnPros">
+          <h2 class="h2Learnpro"><span>Learn</span> from the pros</h2>
+          <div class="pros">
+            <div class="individualPro">
               <img src="./images/1.png" alt="pro Phillip" />
               <h3>Phillip Massey</h3>
               <p>« Smile of the year » 2018 - 2019</p>
             </div>
-            <div>
+            <div class="individualPro">
               <img src="./images/3.png" alt="pro Nannie" />
               <h3>Nannie Lawrence</h3>
               <p>Best « little smile » 2017</p>
             </div>
-            <div>
+            <div class="individualPro">
               <img src="./images/2.png" alt="pro Bruce" />
               <h3>Bruce Walters</h3>
               <p>Best « Friend Smile » live performance 2019</p>
             </div>
-            <div>
+            <div class="individualPro">
               <img src="./images/4.png" alt="pro Henry" />
               <h3>Henry Hughes</h3>
               <p>« 24h smiles » winner 2016 - 2019</p>
