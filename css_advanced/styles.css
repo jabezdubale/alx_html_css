@@ -152,13 +152,12 @@ main{
     font-style:normal;
 }
 .videosParent {
-border: 1px solid red;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 87px 106px 87px 106px;
-padding-left: 58px;
-padding-right: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 87px 106px 87px 106px;
+    padding-left: 58px;
+    padding-right: 58px;
 }
 
 .popularTutorials {
@@ -245,4 +244,61 @@ padding-right: 58px;
 .time {
     font-size: 14px;
     color: #C271FF;
+}
+
+.membershipParent {
+    background: #071629;
+    color: #fff;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.freeMembership {
+    font-size: 32px;
+}
+.freeMembership span{
+    color:#C271FF;
+}
+.memberscontent {
+    margin-top: 58px;
+    margin-bottom: 85px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+}
+.membersindividualContent {
+    width: 257px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.membersindividualContent img{
+    height: 44px;
+}
+
+.membersindividualContent h3{
+    font-size: 18px;
+}
+
+.membersindividualContent p{
+    font-size: 14px;
+    text-align: center;
+    width: 212px;
+    line-height: 26px;
+}
+
+.registerForFreeInMembers {
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    background: #C271FF;
+    color: #fff;
+    border-style: none;
+    border-radius: 22px;
 }
