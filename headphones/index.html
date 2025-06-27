@@ -4,8 +4,127 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Headphones</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    Hello World!
+    <header>
+      <div class="nav">
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-label">
+          <img src="assets/images/menu.svg" alt="menu" class="menu-icon" />
+        </label>
+        <a href="#"
+          ><img
+            src="assets/images/logo_headphones.png"
+            alt="logo"
+            class="header-logo"
+        /></a>
+        <nav class="nav-nav">
+          <ul>
+            <li><a href="#what-we-do" class="nav-links">what we do</a></li>
+            <li><a href="#our-results" class="nav-links">our results</a></li>
+            <li><a href="#contact-us" class="nav-links">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="intro">
+        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+        <h2 class="intro-short-description">
+          Lorem ipsum dolor set amet lorem ipsum dolor set
+        </h2>
+        <button class="call-to-action-button">CALL TO ACTION</button>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+    </header>
+    <div class="what-we-do" id="what-we-do">
+      <div class="work-description">
+        <h1>What we do…</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+
+      <div class="products">
+        <div class="product1">
+          <img src="assets/images/sound_frequency.svg" alt="Sound product" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="product2">
+          <img src="assets/images/video.svg" alt="Video product" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="product3">
+          <img src="assets/images/music.svg" alt="Music product" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="product4">
+          <img src="assets/images/hearing.svg" alt="Hearing product" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="our-results" id="our-results">
+      <p class="results-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+      <div class="results">
+        <div>
+          <h1>+2%</h1>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <h1>+2%</h1>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <h1>+2%</h1>
+          <p>Lorem ipsum dolor</p>
+        </div>
+        <div>
+          <h1>+2%</h1>
+          <p>Lorem ipsum dolor</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-us" id="contact-us">
+      <h1>Contact us</h1>
+      <form action="">
+        <input type="text" name="name" id="name" placeholder="Name" />
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <textarea name="message" id="message">Your message</textarea>
+        <button class="call-to-action-button">CALL TO ACTION</button>
+      </form>
+    </div>
+    <footer>
+      <img src="assets/images/logo_headphones.png" alt="footer-logo" />
+      <div class="social">
+        <a href="#"
+          ><img src="assets/images/Facebook_White.svg" alt="facebook"
+        /></a>
+        <a href="#"
+          ><img src="assets/images/Twitter_White.svg" alt="twitter"
+        /></a>
+        <a href="#"
+          ><img src="assets/images/Instagram_White.svg" alt="instagram"
+        /></a>
+      </div>
+      <div class="copyright"><p>&copy;headphones 2025</p></div>
+    </footer>
   </body>
 </html>
